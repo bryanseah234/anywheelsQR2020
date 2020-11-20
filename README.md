@@ -1,5 +1,5 @@
 # anywheels-sg-code
-code to generate QR codes for rental bikes and parking locations.
+code to generate QR codes for rental bikes and parking locations. <br>
 (USE AT OWN DISCRETION, FOR EDUCATIONAL PURPOSES ONLY)
 
 <p align="left">
