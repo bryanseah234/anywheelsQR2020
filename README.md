@@ -12,4 +12,5 @@ code to generate QR codes for rental bikes and parking locations.
 ## Instructions:
 1. Download the repo as a zip file
 2. Unzip the file
-3. Double click python file to run the programme
+3. Double click python files to generate bike numbers and locations
+4. Double click python files to generate QR codes for bikes and locations
