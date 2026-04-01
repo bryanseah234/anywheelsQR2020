@@ -1,16 +1,58 @@
-# anywheels-sg-code
-code to generate QR codes for rental bikes and parking locations.
+# Anywheel QR Code Generator
 
-<p align="left">
-  <img src="https://scontent.fsin5-1.fna.fbcdn.net/v/t1.0-9/97438275_749288908941583_7242582997394784256_o.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=4_Q9XlkSwOUAX-6jbBO&_nc_ht=scontent.fsin5-1.fna&oh=c6e4ed00009ced4705a86f75f66384aa&oe=5FD81CC1" width="300" height="300" />
-</p>
+A Python tool to generate QR codes for Anywheel bike-sharing rental bikes and parking locations in Singapore.
 
-## Disclaimer:
-1. USE AT OWN DISCRETION
-2. FOR EDUCATIONAL PURPOSES ONLY
+## Description
 
-## Instructions:
-1. Download the repo as a zip file
-2. Unzip the file
-3. Double click python files to generate bike numbers and locations
-4. Double click python files to generate QR codes for bikes and locations
+This project generates QR codes for the Anywheel bike-sharing service in Singapore. It creates QR codes for bike rental (to unlock and rent bicycles) and parking location codes (to properly park and end your rental). The tool batch-generates thousands of QR codes as PNG images for both bikes and locations.
+
+## Features
+
+- Generate QR codes for Anywheel rental bikes
+- Generate QR codes for parking locations (AMK, BDK, BBT areas)
+- Batch processing of thousands of codes
+- High-quality PNG output with customizable scale
+
+## Technologies Used
+
+- Python
+- pyqrcode - QR code generation library
+- pypng - PNG image format support
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/bryanseah234/anywheelsQR2020.git
+
+# Navigate to project directory
+cd anywheelsQR2020
+
+# Install dependencies
+pip install pyqrcode pypng
+```
+
+## Usage
+
+```bash
+# Generate QR codes for bikes
+python bikes.py
+
+# Generate QR codes for parking locations
+python locations.py
+```
+
+The generated QR codes will be saved in the `output/bikes/` and `output/locations/` directories respectively.
+
+## Disclaimer
+
+1. FOR EDUCATIONAL PURPOSES ONLY
+2. USE AT YOUR OWN DISCRETION
+
+## License
+
+MIT License
+
+---
+
+**Author:** <a href="https://github.com/bryanseah234">bryanseah234</a>
